@@ -4,6 +4,10 @@ Alumni Bioslider
 Mini jQuery-powered Bio Slider for Alumni Relations, live at
 <http://www.umd.umich.edu/alumni_stay_connected/>
 
+![screenshot 1](img/screenshot-1.png)
+
+![screenshot 2](img/screenshot-2.png)
+
 
 ## Credits / Terms
 
