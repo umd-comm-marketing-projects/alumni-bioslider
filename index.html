@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Alumni Slider</title>
+</head>
+<body>
+
+<link rel="stylesheet" type="text/css" href="clear.css" />
+<link rel="stylesheet" type="text/css" href="main.css" />
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.4.4.js"></script>
+<script type="text/javascript" src="bioslider.jquery.js"></script>
+
+<div id="spotlight-wrapper" class="spotlight-wrapper">
+	<ul class="spotlight-container">
+		<li>
+			<img src="http://umd.umich.edu/fileadmin/template/ia/images/alumni_home/Spotlight_Alumni/ledian_dibra.jpg" alt="Ledian Dibra" />
+			<h2>Ledian Dibra '08</h2>
+			<h3>CECS</h3>
+			<span>Ledian Dibra is an associate engineer with DTE Energy. During his time at DTE, Ledian 
+					has managed the largest summer program in the company’s history...</span>
+					<a href="http://umd.umich.edu/index.php?id=692719">read more ></a>
+	          <input type="hidden" class="spotlight-thumb-src" value="http://umd.umich.edu/fileadmin/template/ia/images/alumni_home/Spotlight_Alumni/ledian_dibra_thumb.jpg" />
+	          <div class="clear"></div>
+		</li>
+		<li>
+			<img src="http://umd.umich.edu/fileadmin/template/ia/images/alumni_home/Spotlight_Alumni/lizabeth_ardisana.jpg" alt="Lizabeth Ardisana" />
+			<h2>Lizabeth Ardisana '84</h2>
+			<h3>CECS</h3>
+			<span>Lizabeth Ardisana exemplifies Michigan excellence through her commitment to education, 
+					entrepreneurship, and community impact...</span>
+				  <a href="/index.php?id=692718">read more ></a>
+			<input type="hidden" class="spotlight-thumb-src" value="http://umd.umich.edu/fileadmin/template/ia/images/alumni_home/Spotlight_Alumni/lizabeth_ardisana_thumb.jpg" />
+			<div class="clear"></div>
+		</li>
+		<li>
+			<img src="http://umd.umich.edu/fileadmin/template/ia/images/alumni_home/Spotlight_Alumni/janet_hall.jpg" alt="Janet Hall" />
+			<h2>Janet Hall '90</h2>
+			<h3>COB</h3>
+			<span>Janet Hall was the first female graduate from the College. She had a long and distinguished career 
+					in manufacturing before her retirement in 2002...</span>
+					<a href="/index.php?id=692720">read more ></a>
+			<input type="hidden" class="spotlight-thumb-src" value="http://umd.umich.edu/fileadmin/template/ia/images/alumni_home/Spotlight_Alumni/janet_hall_thumb.jpg" />
+			<div class="clear"></div>
+		</li>
+		<li>
+			<img src="http://umd.umich.edu/fileadmin/template/ia/images/alumni_home/Spotlight_Alumni/shanelle_jackson.jpg" alt="Shanelle Jackson" />
+			<h2>Shanelle Jackson '03</h2>
+			<h3>B.A.</h3>
+			<span>Shanelle Jackson is a 2004 graduate from the College of Arts, Sciences, and Letters. 
+			She is entering her third term in the Michigan House of Representatives...</span>
+			<a href="/alumni_spotlight">read more ></a>
+			<input type="hidden" class="spotlight-thumb-src" value="http://umd.umich.edu/fileadmin/template/ia/images/alumni_home/Spotlight_Alumni/shanelle_jackson_thumb.jpg" />
+			<div class="clear"></div>
+		</li>
+	</ul>
+</div>
+
+
+<script type="text/javascript">
+   $(document).ready(function() {
+      $(".spotlight-container").bioslider({tweenTime:300, scrollPixels:300});
+   });
+</script>	
+
+</body>
+</html>

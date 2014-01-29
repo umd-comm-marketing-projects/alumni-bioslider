@@ -1,0 +1,101 @@
+#spotlight-wrapper {
+     width: 301px;
+     overflow: hidden;
+     padding: 37px 0 5px 0;
+     background: url("featured-heading-bg.jpg") no-repeat top left;
+     border: 1px solid #FBEDC3;
+}
+
+#spotlight-wrapper li {
+     list-style: none;
+}
+
+#spotlight-wrapper .spotlight-container,
+#spotlight-wrapper .spotlight-thumb-wrapper {
+     width: 281px;
+     margin: 0 auto;
+}
+
+#spotlight-wrapper .spotlight-container li {
+     margin-bottom: 10px;
+}
+
+#spotlight-wrapper .spotlight-container li a {
+	display: block;
+	font-weight: bold;
+	padding: 5px 0 0 5px;
+	text-align: right;
+}
+
+#spotlight-wrapper .spotlight-container img {
+     float: left;
+     margin-right: 10px;
+}
+
+#spotlight-wrapper .spotlight-thumb-wrapper {
+     padding: 5px;
+     background-color: #FCF7E8;
+     border: 1px solid #FBEDC3;
+	 *position: relative;
+     overflow: hidden;
+}
+
+#spotlight-wrapper .spotlight-thumb-container {
+     width: 9999px;
+     position: relative;
+	  left: 0px;
+     margin-bottom: 5px;
+}
+
+#spotlight-wrapper .spotlight-thumb-container li {
+     display: inline-block;
+     margin: 0 2px;
+	 zoom: 1;
+     *display: inline;
+}
+
+#spotlight-wrapper .spotlight-thumb-container a {
+     display: inline-block;
+     border: #FCF7E8 1px solid;
+}
+
+#spotlight-wrapper .spotlight-thumb-container a:link,
+#spotlight-wrapper .spotlight-thumb-container a:visited {
+     border-color: #FCF7E8;
+}
+
+#spotlight-wrapper .spotlight-thumb-container a:hover,
+#spotlight-wrapper .spotlight-thumb-container a:active {
+     border-color: #9AAEB3;
+}
+
+#spotlight-wrapper .spotlight-nav-left, #spotlight-wrapper  .spotlight-nav-right {
+     cursor: pointer;
+}
+
+#spotlight-wrapper .spotlight-nav-left {
+     float: left;
+}
+
+#spotlight-wrapper .spotlight-nav-right {
+     float: right;
+}
+
+#spotlight-wrapper .spotlight-thumb-caption {
+     display: block;
+     width: 250px;
+     margin: 0 auto;
+     text-align: center;
+     font-weight: bold;
+     font-size: 12px;
+     color: #222222;
+}
+
+#spotlight-wrapper .clear {
+     clear: both;
+     display: block;
+     overflow: hidden;
+     visibility: hidden;
+     width: 0;
+     height: 0;
+}

@@ -1,0 +1,24 @@
+{
+   "bios":
+   [
+      {
+         "name":        "Eric Ham",
+         "year":        "'95",
+         "major":       "CASL",
+         "description": "Eric Ham recently launched The XII Project, a nonpartisan initiative designed to create a dialogue among thought leaders about key foreign policy and...",
+         "url":         "/index.php?id=693499",
+         "imageThumb": "/fileadmin/template/ia/images/alumni_home/Spotlight_Alumni/EricHam_SM_Thumb.png",
+         "imageFull":  "/fileadmin/template/ia/images/alumni_home/Spotlight_Alumni/EricHam_SM_Long.JPG"
+      },
+      {
+         "name":        "Name of new person",
+         "year":        "Year of graduation in form '04 or '99",
+         "major":       "B.A. , CECS, CASL, etc... ",
+         "description": "Short description of person. Approx 150 characters in length",
+         "url":         "Relative URL to the full bio page. ie: /index.php?id=12345",
+         "imageThumb": "Relative URL to the thumbnail image. Should be 38x45 pixels",
+         "imageFull":  "Relative URL to the full image. Should be 125x145 pixels"
+      }
+   ]
+}
+
